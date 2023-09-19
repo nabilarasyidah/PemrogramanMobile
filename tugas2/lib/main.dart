@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         Stack(
           children: [
             Container(
-              color: Color.fromARGB(255, 24, 114, 114),
+              color: const Color.fromARGB(255, 24, 114, 114),
               padding: const EdgeInsets.only(top: 260.0, left: 8.0),
               height: 300.0,
               width: 400.0,
@@ -43,11 +43,11 @@ class MyApp extends StatelessWidget {
             Container(
               color: Colors.white,
               alignment: Alignment.bottomCenter,
-              padding: const EdgeInsets.only(top: 10.0, bottom: 10.0),
-              height: 245.0,
+              padding: const EdgeInsets.only(top: 8.0, bottom: 10.0),
+              height: 250.0,
               width: 400.0,
               margin:
-                  const EdgeInsets.only(left: 13.0, right: 13.0, bottom: 20.0),
+                  const EdgeInsets.only(left: 13.0, right: 13.0,),
               child: const Text(
                 "Elemental, Film Disney Terbaru",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
               height: 200.0,
               width: 400.0,
               margin:
-                  const EdgeInsets.only(left: 13.0, right: 13.0, bottom: 60.0),
+                  const EdgeInsets.only(left: 13.0, right: 13.0, top: 8),
               child: Image.network(
                   'https://i.pinimg.com/564x/e0/8e/81/e08e81d5951ed922adbbea15f1eb7aa4.jpg',
                   fit: BoxFit.fill,),
@@ -86,11 +86,11 @@ class MyApp extends StatelessWidget {
                   decoration:
                       BoxDecoration(border: Border.all(color: Colors.grey)),
                   alignment: Alignment.centerLeft,
-                  margin: EdgeInsets.only(right: 10),
+                  margin: const EdgeInsets.only(right: 8),
                   width: 300,
                   height: 124.0,
-                  padding: EdgeInsets.all(8),
-                  child: Text(
+                  padding: const EdgeInsets.all(8),
+                  child: const Text(
                     "Review Film 'Elemental: Forces of Nature'",
                     style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500),
                   ),
@@ -134,11 +134,11 @@ class MyApp extends StatelessWidget {
                   decoration:
                       BoxDecoration(border: Border.all(color: Colors.grey)),
                   alignment: Alignment.centerLeft,
-                  margin: EdgeInsets.only(right: 10.0),
+                  margin: const EdgeInsets.only(right: 10.0),
                   width: 265,
                   height: 124.0,
-                  padding: EdgeInsets.only(left: 10.0),
-                  child: Text(
+                  padding: const EdgeInsets.only(left: 10.0),
+                  child: const Text(
                     "Review Film Cars 2",
                     style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500),
                   ),
