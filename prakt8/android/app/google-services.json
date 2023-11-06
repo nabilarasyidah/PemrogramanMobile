@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "927988436500",
+    "project_id": "flutterfirebase-9e574",
+    "storage_bucket": "flutterfirebase-9e574.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927988436500:android:952d5c22bcf7ea7da12101",
+        "android_client_info": {
+          "package_name": "com.example.prakt8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927988436500-i3b9tdnl7sjqojtee4mopjjv491i2p5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3nnvcuQlcCWfV1Ne_nvCRDr_UVha3kzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927988436500-i3b9tdnl7sjqojtee4mopjjv491i2p5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
